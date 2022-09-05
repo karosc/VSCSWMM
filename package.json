@@ -1,0 +1,29 @@
+{
+  "name": "vscswmm",
+  "displayName": "VSC SWMM",
+  "description": "VSCode SWMM Syntax Features",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karosc/VSCSWMM.git"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "swmm",
+      "aliases": ["SWMM files", "swmm"],
+      "extensions": [".inp",".rpt"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "swmm",
+      "scopeName": "source.inp",
+      "path": "./syntaxes/swmm.tmLanguage.json"
+    }]
+  }
+}
