@@ -4,6 +4,18 @@ A SWMM visual studio code extension that provides syntax highlighting of inp fil
 
 ![Screenshot](images/SWMM_highlighting.png)
 
+## Quick Start
+
+Install requirements:
+1. [Node.js/npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+2. VS Code Extension Manager, using npm: `npm install -g @vscode/vsce`
+
+Install extension:
+1. Clone repo (into temporary folder): `git clone  git@github.com:karosc/VSCSWMM.git --branch v0.0.1`
+2. Change directory to repo folder: `cd ./VSCSWMM`
+3. Package extension : `vsce package`
+4. Install extension: `code --install-extension vscswmm-0.0.1.vsix`
+
 ## Notes
 
 Extension developed based on: 
